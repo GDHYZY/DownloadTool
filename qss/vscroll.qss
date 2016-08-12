@@ -1,0 +1,39 @@
+QScrollBar:vertical {
+    max-width: 9px;
+    background: transparent;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+QScrollBar::handle:vertical {
+    width: 9px;
+    min-height: 20px;
+    background: rgb(190, 190, 190);
+} 
+QScrollBar::handle:vertical:hover {
+    background: rgb(170, 170, 170);
+} 
+QScrollBar::sub-line:vertical {
+    height: 9px;
+    width: 9px;
+    background: rgb(220, 220, 220);
+    border-image: url(:/qssimage/arrowtop);
+    subcontrol-position: top;
+} 
+QScrollBar::add-line:vertical {
+    height: 9px;
+    width: 9px;
+    background: rgb(220, 220, 220);
+    border-image: url(:/qssimage/arrowbuttom);
+    subcontrol-position: bottom;
+} 
+QScrollBar::sub-line:vertical:hover {
+    background: rgb(190, 190, 190);
+    border-image: url(:/qssimage/hover);
+}
+QScrollBar::add-line:vertical:hover {
+    background: rgb(190, 190, 190);
+    border-image: url(:/qssimage/nothover);
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical {
+    background: rgb(220, 220, 220);
+}

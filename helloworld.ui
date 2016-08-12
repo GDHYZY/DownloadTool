@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HelloWorld</class>
+ <widget class="QWidget" name="HelloWorld">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>967</width>
+    <height>631</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QTableWidget" name="body">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>70</y>
+     <width>751</width>
+     <height>511</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BTN_VIEW_DOWNLOAD">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>正在下载</string>
+   </property>
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/icon/icon/view_download.png</normaloff>:/icon/icon/view_download.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BTN_VIEW_FINISHED">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>已完成</string>
+   </property>
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/icon/icon/view_finished.png</normaloff>:/icon/icon/view_finished.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BTN_VIEW_DELETE">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>回收站</string>
+   </property>
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/icon/icon/view_deleted.png</normaloff>:/icon/icon/view_deleted.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>280</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>URL:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineURL">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>310</y>
+     <width>181</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="linePath">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>390</y>
+     <width>181</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>C:\Users\user\Desktop\</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>360</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>路径：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BTN_CREATTASKS">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>500</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>新建</string>
+   </property>
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/icon/icon/win_create.png</normaloff>:/icon/icon/win_create.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>460</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>线程数：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineThreadCount">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>460</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>5</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lspeed">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>590</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BTN_STARTTASKS">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>30</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/icon/icon/win_start.png</normaloff>:/icon/icon/win_start.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BTN_STOPTASKS">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>30</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/icon/icon/win_stop.png</normaloff>:/icon/icon/win_stop.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>590</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>全局限速</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="EDIT_SETSPEED">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>590</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>590</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>KB / S</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BTN_WINDOW_CLOSE">
+   <property name="geometry">
+    <rect>
+     <x>914</x>
+     <y>10</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>16</width>
+     <height>16</height>
+    </size>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/icon/icon/win_close.png</normaloff>:/icon/icon/win_close.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BTN_WINDOW_MISS">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>10</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>16</width>
+     <height>16</height>
+    </size>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/icon/icon/win_min.png</normaloff>:/icon/icon/win_min.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Blackadder ITC</family>
+     <pointsize>40</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>WTF</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BTN_FULLSPEED">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>590</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>全速下载</string>
+   </property>
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/icon/icon/win_fullspeed.png</normaloff>:/icon/icon/win_fullspeed.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LABEL_LINE_1">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>100</y>
+     <width>21</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>________</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LABEL_LINE_2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>150</y>
+     <width>21</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>________</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LABEL_LINE_3">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>200</y>
+     <width>21</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>________</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resourse.qrc"/>
+ </resources>
+ <connections/>
+</ui>

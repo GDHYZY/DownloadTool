@@ -1,0 +1,7 @@
+QComboBox{
+	border:1px solid gray;
+	border-radius:3px;
+	padding:1px18px1px3px;
+	min-width:6em;
+}
+

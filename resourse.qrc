@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>icon/bg.png</file>
+        <file>icon/view_deleted.png</file>
+        <file>icon/view_download.png</file>
+        <file>icon/view_finished.png</file>
+        <file>icon/win_create.png</file>
+        <file>icon/win_fullspeed.png</file>
+        <file>icon/win_min.png</file>
+        <file>icon/win_start.png</file>
+        <file>icon/win_stop.png</file>
+        <file>icon/win_close.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>qss/pushbutton.qss</file>
+        <file>qss/tablewidget.qss</file>
+    </qresource>
+</RCC>
